@@ -1,0 +1,33 @@
+land,maa
+lagom,kohtuullinen, sopiva
+vår,meidän
+kär,rakas
+grannland,naapurimaa
+gemensamt,yhteistä
+svensk,ruotsalainen
+hurdan,millainen
+artig,kohtelias
+säga,sanoa
+alltid,aina
+ursäkta,anteeksi
+punktlig,täsmällinen
+viktig,tärkeä
+komma,tulla
+bråka,riidellä
+prata,jutella
+också,myös
+gärna,mielellään
+syssla,puuhata
+älska,rakastaa
+allsång,yhteislaulu
+många,monet
+känd,tunnettu
+låtskrivare,lauluntekijä
+till exempel,esimerkiksi
+ge,antaa
+positiv,positiivinen
+snäll,kiltti
+ofta,usein
+sötsaker,makeiset
+godis,karkki
+i hela världen,koko maailmassa

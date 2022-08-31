@@ -1,0 +1,33 @@
+vara,olla
+viktig,tärkeä
+någonting,jotain
+rolig,hauska
+meningsfull,mielekäs
+göra,tehdä
+på fritiden,vapaa ajalla
+orka,jaksaa
+berätte,kertoa
+ungdomor,nuoret
+olik,erilainen
+egen,oma
+låt,laulu
+ibland,joskus
+uttrycka,ilmaista
+känsla,tunne
+tanke,ajatus
+ledsen,surullinen
+glad,iloinen
+vilja,haluta
+intresse,harrastus
+uppträda,esiintyä
+härlig,ihana
+gånger,kertaa
+börja,aloittaa
+bli intresserad,kiinnostua
+minne,muisto
+verkligen,todellakin
+min grej,minun juttuni
+kodning,koodaus
+skapa,luoda
+kunna,voida
+vad som helst,mitä tahansa
