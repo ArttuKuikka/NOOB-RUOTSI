@@ -22,8 +22,8 @@ while (true)
 {
     foreach (var sanaa in shuffledcards)
     {
-        var r = rng.Next(2);
-        if(r == 0)
+        var r = rng.Next(10);
+        if(r >= 8)
         {
             Console.WriteLine("mitä on: " + sanaa.suomi);
             if (sanaa.ruotsi.Contains(Console.ReadLine()))

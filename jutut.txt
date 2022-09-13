@@ -1,33 +1,20 @@
-vara,olla
-viktig,tärkeä
-någonting,jotain
-rolig,hauska
-meningsfull,mielekäs
-göra,tehdä
-på fritiden,vapaa ajalla
-orka,jaksaa
-berätte,kertoa
-ungdomor,nuoret
-olik,erilainen
-egen,oma
-låt,laulu
-ibland,joskus
-uttrycka,ilmaista
-känsla,tunne
-tanke,ajatus
-ledsen,surullinen
-glad,iloinen
-vilja,haluta
-intresse,harrastus
-uppträda,esiintyä
-härlig,ihana
-gånger,kertaa
-börja,aloittaa
-bli intresserad,kiinnostua
-minne,muisto
-verkligen,todellakin
-min grej,minun juttuni
-kodning,koodaus
-skapa,luoda
-kunna,voida
-vad som helst,mitä tahansa
+﻿bjuda,bjuder,bjöd,bjudit;tarjota
+bli,blir,blev,blivit;tulla joksikin
+dricka,dricker,drack,druckit;juoda
+finnas,finns,fanns,funnits;olla olemassa
+få,får,fick,fått;saada
+förstå,förstår,förstod,förstått;ymmärtää
+ge,ger,gav,gett;antaa
+gå,går,gick,gått;kävellä,mennä
+göra,gör,gjorde,gjort;tehdä
+ha,har,hade,haft;olla,omistaa
+komma,kommer,kom,kommit;tulla
+kunna,kan,kunde,kunnat;osata,voida
+se,ser,såg,sett;nähdä
+sitta,sitter,satt,suttit;istua
+skriva,skriver,skrev,skrivit;kirjoittaa
+säga,säger,sade,sagt;sanoa
+ta,tar,tog,tagit;ottaa
+vara,är,var,varit;olla
+vilja,vill,ville,velat;haluta,tahtoa
+äta,äter,åt,ätit;syödä
