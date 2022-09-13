@@ -13,7 +13,7 @@ using (var streamReader = new StreamReader(fileStream, Encoding.UTF8, true, Buff
 {
     String line;
     while ((line = streamReader.ReadLine()) != null)
-        lista.Add(new sana() { ruotsi = line.Split(',')[0], suomi = line.Split(',')[1] });
+        lista.Add(new sana() { ruotsi = line.Split(';')[1], suomi = line.Split(';')[0] });
       
   }
 
@@ -47,12 +47,14 @@ while (true)
                 Console.BackgroundColor = ConsoleColor.Green;
                 Console.WriteLine("Oikein, se oli " + sanaa.suomi);
                 Console.ResetColor();
+                Console.Write("");
             }
             else
             {
                 Console.BackgroundColor = ConsoleColor.Red;
                 Console.WriteLine("väärin, se oli " + sanaa.suomi);
                 Console.ResetColor();
+                Console.Write("");
             }
         }
        
