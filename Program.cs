@@ -1,9 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using DiscordRPC;
+using NOOBRUOTSI;
 using System.Security.Cryptography;
 using System.Text;
 Random rng = new Random();
 
 Console.WriteLine("Hello, World!");
+
+var dis = new dis();
+dis.Initialize();
 
 var lista = new List<sana>();
 
@@ -20,11 +25,27 @@ using (var streamReader = new StreamReader(fileStream, Encoding.UTF8, true, Buff
 var shuffledcards = lista.OrderBy(a => rng.Next()).ToList();
 while (true)
 {
+    int count = 0;
     foreach (var sanaa in shuffledcards)
     {
+        count++;
+        var maara = shuffledcards.Count;
+
+        dis.client.SetPresence(new RichPresence()
+        {
+            Details = $"Mitä on '{sanaa.ruotsi}'",
+            State = $"sana {count}/{maara}",
+            Assets = new Assets()
+            {
+                LargeImageKey = "untitled",
+                LargeImageText = "Noob ruotsi"
+            }
+        });
+
         var r = rng.Next(10);
         if(r >= 8)
         {
+            
             Console.WriteLine("mitä on: " + sanaa.suomi);
             if (sanaa.ruotsi.Contains(Console.ReadLine()))
             {
@@ -57,10 +78,12 @@ while (true)
                 Console.Write("");
             }
         }
+
        
         
     }
     Console.WriteLine("Loopataan");
+    shuffledcards = lista.OrderBy(a => rng.Next()).ToList();
 }
 
 
