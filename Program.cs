@@ -4,6 +4,7 @@ using NOOBRUOTSI;
 using System.Security.Cryptography;
 using System.Text;
 Random rng = new Random();
+var aika = Timestamps.Now;
 
 Console.WriteLine("Hello, World!");
 
@@ -39,7 +40,9 @@ while (true)
             {
                 LargeImageKey = "untitled",
                 LargeImageText = "Noob ruotsi"
-            }
+            },
+            Timestamps = aika
+
         });
 
         var r = rng.Next(10);

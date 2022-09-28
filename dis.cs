@@ -51,9 +51,13 @@ namespace NOOBRUOTSI
                     LargeImageKey = "image_large",
                     LargeImageText = "Noob ruotsi",
                     SmallImageKey = "image_small"
+                },
+                Timestamps = new Timestamps()
+                {
+                    Start = DateTime.Now
                 }
 
-            });
+            }); ;
         }
     }
 }
